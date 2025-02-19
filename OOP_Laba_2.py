@@ -110,7 +110,7 @@ class Triangle(Shape):
         self.__b *= factor
         self.__c *= factor
 
-    def call(self):
+    def __call__(self):
         """
         Возвращает строковое представление треугольника.
         """
@@ -128,9 +128,3 @@ triangle.change_size(10)
 print("Периметр после увеличения:", triangle.perimeter())
 print("Радиус описанной окружности после увеличения:", triangle.radius())
 print("Углы треугольника после увеличения:", triangle.angles())
-
-print(triangle.call())
-
-print("Стороны треугольника:", triangle.get_sides())
-triangle.set_sides(6, 8, 10)
-print("Новые стороны треугольника:", triangle.get_sides())
