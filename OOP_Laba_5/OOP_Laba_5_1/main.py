@@ -1,9 +1,8 @@
 # Программирование на языке высокого уровня (Python).
-# Задание №______. Вариант !!!
+# Задание №1. Вариант 17
 #
-# Выполнил: Фамилия И.О.
-# Группа: !!!
-# E-mail: !!!
+# Выполнил: Муртазов Р.Р
+# Группа: ПИЖ-б-о-23-1(2)
 
 from line_segment import LineSegment
 from line_segment_collection import LineSegmentCollection
