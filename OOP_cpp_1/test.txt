@@ -1,0 +1,3 @@
+Hello world!
+This is a test file.
+WordCount should count lines, words, and bytes here.
